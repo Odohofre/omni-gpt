@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        background: '#111826',
         green: {
           400: '#1fc77e',
           500: '#053283',
@@ -19,6 +20,12 @@ export default {
           800: "#414651",
         }
       },
+      fontFamily : {
+        sansRegular: ['GeneralSans-Regular', 'sans'],
+        sansMedium: ['GeneralSans-Medium', 'sans'],
+        sansSemibold: ['GeneralSans-Semibold', 'sans'],
+        sansBold: ['GeneralSans-Bold', 'sans'],
+      }
     },
   },
   plugins: [],
