@@ -10,22 +10,25 @@ export default {
           500: '#053283',
         },
         yellow: {
-          300: '#feea00',
+          300: '#FEEA00',
           400: '#ffc542',
         },
-        lilac: "#7F3DD2",
+        lilac: '#7F3DD2',
         grey: {
-          200: "#D9D9D9",
-          400: "#F4FAFF",
-          800: "#414651",
-        }
+          200: '#D9D9D9',
+          400: '#F4FAFF',
+          800: '#414651',
+        },
       },
-      fontFamily : {
+      fontFamily: {
+        Poppins: ['Poppins', 'sans'],
+        sansLight: ['GeneralSans-Light', 'sans'],
         sansRegular: ['GeneralSans-Regular', 'sans'],
         sansMedium: ['GeneralSans-Medium', 'sans'],
         sansSemibold: ['GeneralSans-Semibold', 'sans'],
         sansBold: ['GeneralSans-Bold', 'sans'],
-      }
+        meridian: ['"FS Meridian"', 'serif'],
+      },
     },
   },
   plugins: [],
